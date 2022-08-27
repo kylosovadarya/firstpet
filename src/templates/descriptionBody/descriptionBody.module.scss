@@ -1,0 +1,48 @@
+.body {
+    display: flex;
+    gap: 32px;
+    margin: 0 45px;
+    margin-bottom: 60px;
+}
+
+.body h1 {
+    margin-top: 0;
+}
+
+.picture {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    width: 569px;
+    height: 436px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.reviews {
+    position: relative;
+    top: -3px;
+    margin-left: 12px;
+    color: #a9a9a9;
+    text-decoration: underline;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.tables {
+    display: flex;
+    gap: 68px;
+}
+
+.body .btns {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}

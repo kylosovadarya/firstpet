@@ -1,0 +1,21 @@
+.searchBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1260px;
+    padding: 40px 45px;
+    margin: 0 auto;
+}
+
+.searchBlock > div:last-child {
+    button {
+        font-size: 30px;
+
+    }
+
+    button:last-child {
+        position: relative;
+        margin-left: 25px;
+    }
+}

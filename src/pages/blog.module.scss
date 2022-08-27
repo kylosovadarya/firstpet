@@ -1,0 +1,30 @@
+.largeBlock {
+    display: flex;
+    height: 400px;
+    gap: 32px;
+    margin-bottom: 96px;
+}
+
+.blog {
+    margin: 0 45px;
+}
+
+.menuTemplate {
+    display: flex;
+    gap: 32px;
+}
+
+.sidebar {
+    width: 269px;
+}
+
+.blog .content {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+
+.blog .content > * {
+    width: 269px;
+}

@@ -1,0 +1,25 @@
+.productTags {
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.productTags h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.productTags div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.productTags span {
+    background-color: #f5f5f5;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 12px;
+}

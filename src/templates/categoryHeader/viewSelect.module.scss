@@ -1,0 +1,31 @@
+.viewSelect {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    gap: 20px;
+}
+
+.quantity {
+    color: #6a983c;
+    font-size: 12px;
+    padding: 1px 8px;
+    background-color: #f4f8ec;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.viewSelect button * {
+    position: relative;
+    top: 1px;
+    margin-right: 5px;
+}
+
+.quantity::after {
+    content: 'Products';
+    color: #a9a9a9;
+    display: inline-block;
+    position: absolute;
+    margin-left: 15px;
+    font-family: 'Open sans', sans-serif;
+}

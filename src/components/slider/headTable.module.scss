@@ -1,0 +1,35 @@
+.headTable {
+    width: 100%;
+}
+
+tbody {
+    color: #575757;
+}
+
+td {
+    padding: 5px 0;
+}
+
+.headTable th {
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.headTable th:first-child {
+    text-align: start;
+}
+
+.headTable th:nth-child(2) {
+    text-align: start;
+}
+
+.headTable th:last-child {
+    text-align: end;
+}
+
+.headTable td:last-child {
+    text-align: end;
+}
+
+

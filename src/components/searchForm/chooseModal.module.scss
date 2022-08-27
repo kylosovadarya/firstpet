@@ -1,0 +1,36 @@
+.chooseModal {
+    ul {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    li {
+        padding: 8px 10px;
+        color: #6a983c;
+        text-decoration: underline;
+    }
+
+    li:hover {
+        background-color: #f4f8ec;
+    }
+
+    input {
+        display: none;
+    }
+
+    label[for="all-id-modal"] {
+        padding: 8px 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: block;
+        width: 45%;
+        color: #6a983c;
+        text-decoration: underline;
+    }
+
+    label[for="all-id-modal"]:hover {
+        background-color: #f4f8ec;
+    }
+}

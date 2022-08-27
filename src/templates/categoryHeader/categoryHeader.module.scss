@@ -1,0 +1,19 @@
+.categoryHeader {
+    flex-direction: column;
+    margin: 0 45px;
+    margin-bottom: 64px;
+}
+
+.categoryHeader h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.categoryHeader > * {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    justify-content: space-between;
+}

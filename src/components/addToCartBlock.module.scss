@@ -1,0 +1,36 @@
+.container {
+    padding: 20px;
+    border: 1px solid #f5f5f5;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.container form {
+    display: flex;
+    align-items: center;
+}
+
+.cost h1 {
+    color: #6a983c;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin: 0;
+}
+
+.cost p {
+    margin: 0;
+    color: #a9a9a9;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.container select {
+    border: 2px solid #d1d1d1;
+    background-color: #f9f9f9;
+    margin-right: 30px;
+    padding: 11px 20px;
+    border-radius: 12px;
+}
