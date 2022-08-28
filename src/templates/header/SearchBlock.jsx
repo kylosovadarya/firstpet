@@ -13,7 +13,7 @@ const SearchBlock = ({ data }) => {
   return (
     <div className={classes.searchBlock}>
       <h1>
-        <Link to="/">Some products</Link>
+        <Link to="/">~(o_o~) (~o_o)~</Link>
       </h1>
       <SearchForm modal={modal} setModal={setModal} data={data} />
       <div>

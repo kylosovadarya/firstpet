@@ -20,11 +20,11 @@ const data = [
       },
       {
         title: "Flour",
-        points: ["Nue", "Boys don't cry", "No halo", "Monkey wrench", "Little trouble girl"],
+        points: ["Two weeks", "Love my way", "Obstacle 1", "Den Treacy", "Brian eno"],
       },
       {
         title: "Cheesecakes",
-        points: ["Nue", "Boys don't cry", "No halo", "Monkey wrench", "Little trouble girl"],
+        points: ["Don't dream it's over", "Lullaby", "I found a whistle", "Space song", "Future reflections"],
       },
       {
         title: "Waffles",
@@ -44,6 +44,18 @@ const data = [
       },
       {
         title: "Vegetables",
+        points: ["Tomatoe", "Pumpkin", "Potato", "Carrot", "Cucumber"],
+      },
+      {
+        title: "Berries",
+        points: ["Tomatoe", "Pumpkin", "Potato", "Carrot", "Cucumber"],
+      },
+      {
+        title: "Season berries",
+        points: ["Tomatoe", "Pumpkin", "Potato", "Carrot", "Cucumber"],
+      },
+      {
+        title: "Seeds",
         points: ["Tomatoe", "Pumpkin", "Potato", "Carrot", "Cucumber"],
       },
     ],
@@ -71,6 +83,18 @@ const data = [
         points: ["Cola 1", "Cola 2", "Cola 3"],
       },
       { title: "Tea", points: ["Tea 1", "Tea 2", "Tea 3"] },
+      {
+        title: "Coffee",
+        points: ["Milk 1", "Milk 2", "Milk 3"],
+      },
+      {
+        title: "Water",
+        points: ["Milk 1", "Milk 2", "Milk 3"],
+      },
+      {
+        title: "Juice",
+        points: ["Milk 1", "Milk 2", "Milk 3"],
+      },
     ],
   },
   {
