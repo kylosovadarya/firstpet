@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./mainPage.module.scss";
-import ProductsWithMenu from "../templates/ProductsWithMenu";
 import Banners from "../components/banners/Banners";
 import Cards from "../components/cards/Cards";
 import Menu from "../components/menu/Menu";
@@ -9,28 +8,29 @@ import Headline from "../components/Headline";
 import Carousel from "../components/carousel/Carousel";
 import BlogPreview from "../templates/blogPreviewTemplate/BlogPreview";
 import AngleBtn from "../trifles/AngleBtn";
+import Row from "../templates/Row";
 
 const MainPage = () => {
   return (
     <div className={classes.mainPage}>
-      <div className={classes.container}>
+      <Row>
         <Menu title={menu1.title} points={menu1.points}>
-          <AngleBtn className={classes.btn}>More categories</AngleBtn>
+          <AngleBtn className={classes.menuBtn}>More categories</AngleBtn>
         </Menu>
         <Banners />
-      </div>
-      <div className={classes.container}>
+      </Row>
+      <Row>
         <Menu title={menu2.title} points={menu2.points}>
-          <AngleBtn className={classes.btn}>More products</AngleBtn>
+          <AngleBtn className={classes.menuBtn}>More products</AngleBtn>
         </Menu>
         <Cards count={3} />
-      </div>
-      <div className={classes.container}>
+      </Row>
+      <Row>
         <Menu title={menu3.title} points={menu3.points}>
-          <AngleBtn className={classes.btn}>More products</AngleBtn>
+          <AngleBtn className={classes.menuBtn}>More products</AngleBtn>
         </Menu>
         <Cards count={3} />
-      </div>
+      </Row>
       <Headline headline={"Our customers says"} button={"Button"} />
       <Carousel />
       <Headline headline={"Section Headline"} button={"Button"} />

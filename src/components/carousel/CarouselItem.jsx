@@ -1,9 +1,9 @@
 import React from "react";
 import classes from "./carouselItem.module.scss";
 
-const CarouselItem = ({ item }) => {
+const CarouselItem = ({item, ...props}) => {
   return (
-    <div className={classes.item}>
+    <div {...props}>
       <p>{item.text}</p>
       <span className={classes.name}>{item.name}</span>
       <span className={classes.portrait}></span>

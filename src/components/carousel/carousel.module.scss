@@ -1,6 +1,6 @@
 .carousel {
-    position: relative;
     margin-bottom: 130px;
+    max-width: 1260px;
 }
 
 .wrapper {
@@ -8,11 +8,14 @@
     gap: 32px;
     justify-content: center;
 
-    overflow: hidden;
     padding-bottom: 24px;
+    position: relative;
+    max-width: 1260px;
+    overflow: hidden;
 }
 
-.arrowLeft, .arrowRight {
+.arrowLeft,
+.arrowRight {
     height: 48px;
     width: 32px;
 
@@ -20,8 +23,8 @@
     opacity: 87%;
 
     position: absolute;
-    top: 50%;
     z-index: 10;
+    transform: translateY(90px);
 }
 
 .arrowRight {
@@ -31,4 +34,28 @@
 
 .arrowLeft {
     border-radius: 0 6px 6px 0;
+    left: 0;
+}
+
+.slide {
+    width: 370px;
+    border: 1px solid #f1f1f1;
+    border-radius: 12px;
+    flex-shrink: 0;
+    text-align: center;
+
+    padding: 22px;
+    box-sizing: border-box;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Poppins';
+}
+
+.slide.active {
+    background-color: red;
+    
 }
