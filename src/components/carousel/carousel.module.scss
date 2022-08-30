@@ -1,40 +1,31 @@
-.carousel {
-    margin-bottom: 130px;
-    max-width: 1260px;
-}
-
 .wrapper {
     display: flex;
     gap: 32px;
-    justify-content: center;
-
-    padding-bottom: 24px;
     position: relative;
-    max-width: 1260px;
-    overflow: hidden;
+    left: -203px;
+    padding-bottom: 24px;
 }
 
 .arrowLeft,
 .arrowRight {
     height: 48px;
     width: 32px;
+    display: block;
 
     background-color: black;
     opacity: 87%;
 
-    position: absolute;
     z-index: 10;
-    transform: translateY(90px);
+    position: absolute;
 }
 
 .arrowRight {
-    border-radius: 6px 0 0 6px;
-    right: 0;
+    border-radius: 6px;
+    right: -315px;
 }
 
 .arrowLeft {
-    border-radius: 0 6px 6px 0;
-    left: 0;
+    border-radius: 6px;
 }
 
 .slide {
@@ -55,7 +46,6 @@
     font-family: 'Poppins';
 }
 
-.slide.active {
-    background-color: red;
-    
+.active {
+    transition: transform 2s;
 }
