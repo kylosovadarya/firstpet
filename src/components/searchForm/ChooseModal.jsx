@@ -3,7 +3,7 @@ import classes from "./chooseModal.module.scss";
 
 const ChooseModal = ({ categories, closeModal }) => {
   return (
-    <form className={classes.chooseModal}>
+    <div className={classes.chooseModal}>
       <input
         type="radio"
         name="chooseCategory"
@@ -11,10 +11,10 @@ const ChooseModal = ({ categories, closeModal }) => {
         value={"All categories"}
         onClick={closeModal}
       />
-      <label for="all-id-modal">All</label>
+      <label htmlFor="all-id-modal">All</label>
       <ul>
         {categories.map((item) => (
-          <li>
+          <li key={`${item}-id-modal`}>
             <input
               type="radio"
               name="chooseCategory"
@@ -22,11 +22,11 @@ const ChooseModal = ({ categories, closeModal }) => {
               onClick={closeModal}
               value={item}
             />
-            <label for={`${item}-id-modal`}>{item}</label>
+            <label htmlFor={`${item}-id-modal`}>{item}</label>
           </li>
         ))}
       </ul>
-    </form>
+    </div>
   );
 };
 

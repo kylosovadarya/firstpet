@@ -44,8 +44,10 @@
     align-items: center;
 
     font-family: 'Poppins';
+    transition: all 2000ms;
 }
 
-.active {
-    transition: transform 2s;
+.slide.active {
+    transform: translateX(-1000px);
+    background-color: red;
 }
