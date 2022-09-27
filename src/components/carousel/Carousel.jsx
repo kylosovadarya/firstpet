@@ -15,6 +15,12 @@ const Carousel = () => {
     setClicks(clicks + 1);
   };
 
+  const rightClick = useRef(null);
+
+  useEffect(() => {
+    slideClasses.push(classes.active)
+  }, [activeSlides])
+
   return (
     <div className={classes.carousel}>
       <div className={classes.wrapper}>
@@ -29,6 +35,7 @@ const Carousel = () => {
         <ArrowRight
           className={classes.arrowRight}
           onClick={arrNext}
+          ref={rightClick}
         />
       </div>
     </div>

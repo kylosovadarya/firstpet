@@ -2,10 +2,10 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
-const ArrowRight = ({...props}) => {
+const ArrowRight = React.forwardRef(({...props}, ref) => {
   return (
-    <button {...props}><FontAwesomeIcon style={{color: 'white', fontSize: 18}} icon={faAngleRight}/></button>
+    <button {...props} ref={ref}><FontAwesomeIcon style={{color: 'white', fontSize: 18}} icon={faAngleRight}/></button>
   )
-}
+})
 
 export default ArrowRight

@@ -1,67 +1,167 @@
 const data = [
   {
-    Bakery: [
+    MGMT: [
       {
-        title: "Cookies",
+        title: "Oracular Spectacular",
         points: [
-          "With or without you",
-          "Metanoia",
-          "Shook to thrill",
-          "Suedehead",
+          "Time to Pretend",
+          "Weekend Wars",
+          "The Youth",
+          "Electric Feel",
+          "Kids",
+          "4th Dimensional Transition",
+          "Pieces of What",
+          "Of Moon, Birds & Monsters",
+          "Future Reflections",
         ],
       },
       {
-        title: "Pies",
-        points: ["Just like heaven", "Here I go", "Without you I'm nothing", "Protege moi"],
+        title: "Little Dark Age",
+        points: [
+          "She Works Out Too Much",
+          "When You Die",
+          "TSLAMP",
+          "Days That Got Away",
+          "When You're Small",
+          "Little Dark Age",
+          "Me and Michael",
+          "James",
+          "One Thing Left To Try",
+          "Hand It Over",
+        ],
       },
       {
-        title: "Cakes",
-        points: ["Nue", "Boys don't cry", "No halo", "Monkey wrench", "Little trouble girl"],
+        title: "Congratulations",
+        points: [
+          "It's Working",
+          "Someone's Missing",
+          "I Found a Whistle",
+          "Brian Eno",
+          "Song for Dan Treasy",
+          "Flash Delirium",
+          "Siberian Breaks",
+          "Lady Dada's Nightmare",
+          "Congratulations",
+        ],
       },
       {
-        title: "Flour",
-        points: ["Two weeks", "Love my way", "Obstacle 1", "Den Treacy", "Brian eno"],
+        title: "MGMT",
+        points: [
+          "Alien Days",
+          "Mystery Disease",
+          "Your life is a lie",
+          "Astro-Mancy",
+          "Plenty of Girls in the Sea",
+          "Cool Song #3",
+          "Introspection",
+          "A Good Sadness",
+          "I Love You Too, Death",
+          "An Orphan of Fortune",
+        ],
       },
       {
-        title: "Cheesecakes",
-        points: ["Don't dream it's over", "Lullaby", "I found a whistle", "Space song", "Future reflections"],
+        title: "Time to Pretend",
+        points: [
+          "Time to Pretend",
+          "Destrokk",
+          "Indie Rokkers",
+          "Boogie Down",
+          "Love Always Remains",
+          "Kids",
+        ],
       },
       {
-        title: "Waffles",
-        points: ["Nue", "Boys don't cry", "No halo", "Monkey wrench", "Little trouble girl"],
-      },
-      {
-        title: "Cakes",
-        points: ["Nue", "Boys don't cry", "No halo", "Monkey wrench", "Little trouble girl"],
+        title: "LateNightTales",
+        points: [
+          "Can't See Through It",
+          "Cheree",
+          "Ocean",
+          "Laughing Boy",
+          "Mound of Clay",
+          "All We Ever Wanted Was Everything",
+          "Drug Song",
+          "Sparks",
+          "Lord Can You Hear Me?",
+          "Lost for Words, Pt. 2",
+          "For Belgian Friends",
+          "Song for Wilde",
+          "Troubled Mind",
+          "Pink Frost",
+          "Melancholy",
+          "Morning Splendour",
+        ],
       },
     ],
   },
   {
-    "Fruit and vegetables": [
+    "The Smiths": [
       {
-        title: "Fruits",
-        points: ["Pear", "Watermellon", "Apple", "Banana", "Peach"],
+        title: "The Queen Is Dead",
+        points: [
+          "The Queen is Dead",
+          "I Know It's Over",
+          "Cemetary Gates",
+          "There Is a Light That Never Goes Out",
+          "Some Girls are Bigger Than Others",
+          "Frankly Mr. Shankly",
+          "Never Had No One Ever",
+          "Bigmouth Strikes Again",
+          "Vicar in a Tutu",
+        ],
       },
       {
-        title: "Vegetables",
-        points: ["Tomatoe", "Pumpkin", "Potato", "Carrot", "Cucumber"],
+        title: "The Smiths",
+        points: [
+          "Reel Around the Fountain",
+          "Miserable Lie",
+          "The Hand that Rocks the Cradle",
+          "Hand in Glove",
+          "I Don't Owe You Anything",
+          "You've Got Everything Now",
+          "Pretty Girls Make Graves",
+          "Still III",
+          "What Difference Does It Make?",
+          "Suffer Little Children",
+        ],
       },
       {
-        title: "Berries",
-        points: ["Tomatoe", "Pumpkin", "Potato", "Carrot", "Cucumber"],
+        title: "Meat is Murder",
+        points: [
+          "The Headmaster Ritual",
+          "Rusholme Ruffians",
+          "I Want the One I Can't Have",
+          "What She Said",
+          "That Joke Isn't Funny Anymore",
+          "How Soon Is Now?",
+          "Nowhere Fast",
+          "Well I Wonder",
+          "Barbarism Begins at Home",
+          "Meat Is Murder",
+        ],
       },
       {
-        title: "Season berries",
-        points: ["Tomatoe", "Pumpkin", "Potato", "Carrot", "Cucumber"],
+        title: "Stangeways, Here We Come",
+        points: [
+          "A Rush and a Push and the Land Is Ours",
+          "I Started Something I Couldn't Finish",
+          "Death of a Disco Dancer",
+          "Girlfriend in a Coma",
+          "Stop Me If You Think You've Heard This One Before",
+          "Last Night I Dreamt That Somebody Loved Me",
+          "Unhappy Birthday",
+          "Paint a Vulgar Picture",
+          "Death at One's Elbow",
+          "I Won't Share You",
+        ],
       },
       {
-        title: "Seeds",
-        points: ["Tomatoe", "Pumpkin", "Potato", "Carrot", "Cucumber"],
+        title: "Eager to be Held",
+        points: ["Handsome Devil", "Jeane", "Wonderful Woman", "Hand In Glove", "I Don't Owe You Anything", "Jeane", "Barbarism Begins At Home", "How Soon Is Now?", "Nowhere Fast", "Stretch Out and Wait", "Shakespeare's Sister", "Meat Is Murder", "The Draize Train", "I Keep Mind Hidden"],
       },
     ],
   },
   {
-    "Meat and fish": [
+    "Pink Floyd": [
       {
         title: "Fish",
         points: ["Sea bass", "Salmon", "Catfish", "Smelt"],
@@ -73,7 +173,7 @@ const data = [
     ],
   },
   {
-    Drinks: [
+    "Rolling stones": [
       {
         title: "Milk",
         points: ["Milk 1", "Milk 2", "Milk 3"],
@@ -98,7 +198,7 @@ const data = [
     ],
   },
   {
-    Kitchen: [
+    "American Football": [
       {
         title: "Knife",
         points: ["Knife 1", "Knife 2", "Knife 3"],
@@ -111,7 +211,7 @@ const data = [
     ],
   },
   {
-    "Special nutrition": [
+    Foxing: [
       {
         title: "Matcha",
         points: ["Matcha 1", "Matcha 2", "Matcha 3"],
@@ -124,7 +224,7 @@ const data = [
     ],
   },
   {
-    Baby: [
+    "Oso Oso": [
       {
         title: "Yum yum",
         points: ["Yum 1", "Yum 2", "Yum 3"],
@@ -137,7 +237,7 @@ const data = [
     ],
   },
   {
-    Pharmacy: [
+    "The Сure": [
       {
         title: "Pills",
         points: ["Pills 1", "Pills 2", "Pills 3"],

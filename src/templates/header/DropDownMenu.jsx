@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 const DropDownMenu = ({ dropDown, data, point }) => {
+  
   const dropDownClasses = [classes.dropDown];
   if (dropDown) {
     dropDownClasses.push(classes.active);
